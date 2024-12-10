@@ -258,7 +258,7 @@ export class DiagnosticLogger implements IDiagnosticLogger {
     /**
      * 0: OFF (default)
      * 1: CRITICAL
-     * 2: >= WARNING
+     * 2: \>= WARNING
      */
     public consoleLoggingLevel(): number {
         // @DynamicProtoStub -- DO NOT add any code as this will be removed during packaging
